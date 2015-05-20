@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/btn_sendWebsocket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息到服务器(WebSocket)"/>
+	<Button 
+	    android:id="@+id/btn_cookieSession"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="CooKie Session测试"/>
+	<ImageView 
+	    android:id="@+id/img"
+	    android:layout_width="300dp"
+	    android:layout_height="300dp"
+	    android:scaleType="fitXY"
+	    android:visibility="gone"/>
+	<Button 
+	    android:id="@+id/officecash"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="离线缓存"/>
+	<Button 
+	    android:id="@+id/btn_json"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="json解析"/>
+</LinearLayout>
